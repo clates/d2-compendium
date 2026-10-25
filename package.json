@@ -1,0 +1,12 @@
+{
+  "name": "d2-codex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "node tools/build.mjs",
+    "check": "node tools/check.mjs"
+  },
+  "devDependencies": {
+    "d2itemtoolkit": "0.5.2"
+  }
+}

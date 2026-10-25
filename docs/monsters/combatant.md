@@ -1,0 +1,41 @@
+---
+title: "Combatant"
+type: "monster"
+monster_type: "human"
+data_version: "3.3.94995"
+generated: true
+hash: "ae9c8ba305b47a1a"
+---
+# Combatant
+
+2 variants: [Defender Spirit](#defender-spirit-colbarbwhirl), [Guardian Spirit](#guardian-spirit-colbarbthrow).
+
+Resistances of 100 or more make the monster immune to that damage type. Life and experience are computed from the monster's percentages of the game's per-level table; see [Monster level](../mechanics/monster-level.md).
+
+<a id="defender-spirit-colbarbwhirl"></a>
+## Defender Spirit
+
+- ID `colbarbwhirl`.
+- Monster level (Normal): 37. In Nightmare and Hell, the area level.
+- Normal: 950-1140 life, 0 experience, defense 186.
+
+|  | Physical | Magic | Fire | Lightning | Cold | Poison |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Normal | 70 | 50 | **140 (immune)** | 70 | 70 | 70 |
+| Nightmare | 70 | 50 | **140 (immune)** | 70 | 70 | 70 |
+| Hell | 30 | 50 | **140 (immune)** | 70 | 70 | 70 |
+
+<a id="guardian-spirit-colbarbthrow"></a>
+## Guardian Spirit
+
+- ID `colbarbthrow`.
+- Monster level (Normal): 37. In Nightmare and Hell, the area level.
+- Normal: 950-1140 life, 0 experience, defense 186.
+
+|  | Physical | Magic | Fire | Lightning | Cold | Poison |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Normal | 70 | 50 | 70 | **110 (immune)** | 70 | 70 |
+| Nightmare | 70 | 50 | 70 | **110 (immune)** | 70 | 70 |
+| Hell | 20 | 50 | 70 | **110 (immune)** | 70 | 70 |
+
+<!-- NOTES: hand-written text below this line is kept when pages are regenerated -->
