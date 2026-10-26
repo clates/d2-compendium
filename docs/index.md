@@ -15,7 +15,8 @@ game's. The mechanics pages explain what the numbers mean and how they combine.
 - [Base items](items/bases/index.md): every weapon and armor, its sockets, and what can be made
   from it
 - [Runes](items/runes.md), [gems](items/gems.md), [magic affixes](items/affixes/index.md),
-  [Horadric Cube recipes](items/cube-recipes.md)
+  [Horadric Cube recipes](items/cube-recipes.md),
+  [crafting guides](items/crafting/index.md): who crafts each recipe and which item levels to aim for
 
 ## Characters
 

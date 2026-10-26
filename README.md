@@ -27,7 +27,7 @@ tools/extract.py      pull the tables and strings from a local game install into
 tools/build.mjs       regenerate every generated page in docs/
 tools/check.mjs       check links, and that nobody edited a generated page by hand
 tools/gen/*.mjs       one generator per section (items, affixes, cube, world, monsters,
-                      drops, classes, tables, terror, npcs)
+                      drops, classes, tables, terror, npcs, crafting)
 tools/lib/            table reading, the page writer, and item tooltip text
 ```
 

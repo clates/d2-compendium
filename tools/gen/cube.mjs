@@ -138,7 +138,7 @@ ${mdTable(['Word', 'Meaning'], [
 
 ## Crafting
 
-A crafted item gets the fixed modifiers in its row plus random magic affixes. Its item level is half the character's level plus half the input item's level, as the Notes column says; only the input item's level counts, not the jewel's, rune's or gem's. The input's own affixes are lost, since a new item is rolled on the same base.
+A crafted item gets the fixed modifiers in its row plus random magic affixes. For each recipe, ${site.linkPath(P, 'items/crafting/index.md', 'Crafting guides')} suggests who would use it, which affixes to hope for and which item levels to aim for. Its item level is half the character's level plus half the input item's level, as the Notes column says; only the input item's level counts, not the jewel's, rune's or gem's. The input's own affixes are lost, since a new item is rolled on the same base.
 
 The number of random affixes depends on that item level:
 

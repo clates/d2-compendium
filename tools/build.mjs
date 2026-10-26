@@ -13,9 +13,10 @@ import * as tables from './gen/tables.mjs';
 import * as drops from './gen/drops.mjs';
 import * as terror from './gen/terror.mjs';
 import * as npcs from './gen/npcs.mjs';
+import * as crafting from './gen/crafting.mjs';
 
 const only = process.argv.slice(2);
-const gens = { items, affixes, cube, world, monsters, drops, classes, tables, terror, npcs };
+const gens = { items, affixes, cube, world, monsters, drops, classes, tables, terror, npcs, crafting };
 const run = Object.entries(gens).filter(([name]) => !only.length || only.includes(name));
 
 const site = new Site();
